@@ -10,6 +10,9 @@ COPY files/pom.xml $HARVESTER_HOME/pom.xml
 ADD ./my_init.d/ /etc/my_init.d/
 ONBUILD ADD ./my_init.d/ /etc/my_init.d/
 
+WORKDIR /opt/ci-harvester
+RUN mvn
+
 CMD ["/sbin/my_init"]
 
 EXPOSE 80
