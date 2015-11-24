@@ -1,7 +1,7 @@
 #!/bin/sh
 cd /opt/ci-harvester
-mvn
+mvn -U
 cd bin/
 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=256m"
-mvn
+mvn -U &
 
