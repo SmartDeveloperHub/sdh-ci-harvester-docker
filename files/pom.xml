@@ -35,7 +35,7 @@
 
 	<groupId>org.smartdeveloperhub.harvesters.ci</groupId>
 	<artifactId>ci-harvester-infra</artifactId>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 	<packaging>pom</packaging>
 
 	<repositories>
