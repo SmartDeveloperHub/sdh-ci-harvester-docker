@@ -22,7 +22,7 @@ In order to run the *CI Harvester* it is necessary to define several environment
 
 * __TARGET__: the Jenkins instance to be used by the *CI Harvester*. The endpoint can be specified using an IP address (*e.g.*, http://192.168.1.33:8080/) or a fully qualified domain name (*e.g.*, http://jenkins.smartdeveloperhub.org:8080/). 
 
-Taking all of this into account a container which reuses an external data file could be executed as follows:
+Taking all of this into account a container could be executed as follows:
 
 ```bash
 docker run -e "HTTP_HOST=cih.smartdeveloperhub.org" \
